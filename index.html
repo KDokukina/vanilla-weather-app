@@ -10,16 +10,23 @@
 </head>
 <body>
     <div class ="container">
+    <div class="weather-app-wrapper">
         <div class ="weather-app">
+            <div class="overview">
     <h1>Kharkiv</h1>
     <ul>
         <li>Wednesday 15:00 </li>
         <li>Clear</li>
         </ul>
-        <div class = "row">
+    </div>
+        <div class ="row">
             <div class="col-6">
-                <img src ="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png" alt="clear"/>
-                12C | F
+                <div class="weather-temperature">
+                <img src ="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png" alt="clear"
+                class="float-left"/>
+               <div class="float-left"> <strong>12</strong>C | F
+            </div>>
+        </div>
         </div>
         <div class="col-6">
         <ul>
@@ -29,12 +36,11 @@
                 </ul>
                 </div>
                </div> 
-                <small> 
-                    <a href ="https://github.com/KDokukina/vanilla-weather-app" 
-                    target="_blank"
-                    >Open-source code</a> by Ksenia Dokukina</small>
-
     </div>
+    <small>
+        <a href="https://github.com/KDokukina/vanilla-weather-app" target="_blank">Open-source code</a> by Ksenia
+        Dokukina</small>
+        </div>
     <script src="src/app.js"></script>
 </body>
 </html>
